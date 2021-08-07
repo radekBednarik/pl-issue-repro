@@ -1,0 +1,7 @@
+[urls]
+    homepage = "https://www.skoda-auto.de"
+    scala = "https://www.skoda-auto.de/modelle/scala/scala"
+    angeboteUeberblick = "https://www.skoda-auto.de/angebote/angebote-ueberblick"
+    services = "https://www.skoda-auto.de/service/service-zubehoer-ueberblick"
+    eMobility = "https://www.skoda-auto.de/e-mobilitaet/e-mobilitaet"
+    about = "https://www.skoda-auto.de/unternehmen/skoda-deutschland"
