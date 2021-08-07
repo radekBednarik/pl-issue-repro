@@ -1,7 +1,6 @@
 /**
  * This fixture opens given page via url and
  * accepts consents to allow for tracking.
- * This should happen only once during the worker lifetime.
  */
 
 const { test } = require("@playwright/test");
