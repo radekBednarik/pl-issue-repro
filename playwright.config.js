@@ -7,13 +7,6 @@ module.exports = {
     ignoreHTTPSErrors: true,
     screenshot: "only-on-failure",
     video: "retain-on-failure",
-    // options for worker scoped context
-    wContextOptions: {
-      viewport: { width: 1920, height: 1080 },
-      ignoreHTTPSErrors: true,
-      screenshot: "only-on-failure",
-      video: "retain-on-failure",
-    },
   },
   globalSetup: "./test/globalSetup.js",
   globalTeardown: "./test/globalTeardown.js",
