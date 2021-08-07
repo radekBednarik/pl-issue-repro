@@ -1,5 +1,7 @@
 # BUG-REPRO 
 
+Quick repro repository for issue evaluation. Scraped together quite fast, please allow for some possible nonsensical things, like test names, etc...
+
 ## Summary:
 
 ### Expected behaviour
