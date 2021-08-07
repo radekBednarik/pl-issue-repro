@@ -6,10 +6,10 @@ const DEF = JSON.parse(process.env.DEF);
 const urls = Object.values(DEF.urls);
 
 urls.forEach(async (url) => {
-  test.describe("K2NG::Pageview::", () => {
+  test.describe("Pageview::", () => {
     test.use({ url: url });
 
-    test(`${url}::has all 'x' dimensions`, async ({ page }) => {
+    test(`${url}::some test`, async ({ page }) => {
       // just meaningless test, not important
       const url = await page.url();
       test.expect(url).not.toHaveLength(0);

@@ -10,7 +10,7 @@ module.exports = test.extend({
   page: async ({ page, url }, use) => {
     /**
      * Here we would be waiting for specific request and push it to array for later use, but for
-     * repro issue this is not needed, we will just wait
+     * repro issue this is not needed, we will just wait for the request 
      */
     await Promise.all([
       page.waitForRequest(
